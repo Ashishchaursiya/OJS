@@ -6,8 +6,9 @@
    
     "scripts": {
         "dev": "next",
-        "build": "npm install --force  &&  next build",
-        "start": "next start -H 0.0.0.0 -p ${PORT:-8080}"
+        "build": "next build",
+        "start": "next start -H 0.0.0.0 -p ${PORT:-8080}",
+       
     },
     "author": "EnvyTheme.com",
     "license": "ISC",
