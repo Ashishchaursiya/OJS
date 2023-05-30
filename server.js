@@ -4,7 +4,6 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const keys = require("./server/config/keys");
 const stripe = require('stripe')(keys.stripeSecretKey);
-
 const dev = process.env.NODE_ENV !== 'production';
 
 const app = next({ dir: '.', dev });
