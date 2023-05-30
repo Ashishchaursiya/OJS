@@ -3,6 +3,9 @@
     "version": "4.0.0",
     "description": "Novine - React Next eCommerce Templates",
     "main": "index.js",
+    "engines": {
+    "node": "^14.18.0"
+  }
     "scripts": {
         "dev": "next",
         "build": "npm install  &&  next build",
